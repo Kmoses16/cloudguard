@@ -1,0 +1,30 @@
+# Python environments and generated files
+.venv/
+.venv-checkov/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local audit reports
+reports/
+
+# Terraform downloads, state, and saved plans
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.aws/
+*.tfvars
+*.tfvars.json
+terraform.rc
+.terraformrc
+
+# Editor-specific settings
+.vscode/
